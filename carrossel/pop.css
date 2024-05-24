@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1#title {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-style: oblique;
+  margin-top: 60px;
+  text-align: center;
+  transform: scale(2);
+  z-index: 1; /* Ensure the title stays on top */
+}
+
+.gallery-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; /* Fixed height for the container */
+  width: 100%; /* Ensure the container width is consistent */
+  position: relative;
+}
+
+#gallery-image {
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 100%; /* Ensure the image takes up the full width */
+  height: 100%; /* Ensure the image takes up the full height */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+}
+
+button {
+  padding: 15px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  color: #fff;
+  font-size: 2rem;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2; /* Ensure buttons are above other elements */
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#prev-button {
+  left: -60px; /* Position the left button outside the image container */
+}
+
+#next-button {
+  right: -60px; /* Position the right button outside the image container */
+}

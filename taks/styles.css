@@ -1,0 +1,17 @@
+.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+.title{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}  
+
+#centre{
+    position: relative;
+ left: 40%;
+ width: 20%;
+}

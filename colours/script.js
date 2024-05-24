@@ -19,7 +19,7 @@ function randomizeAllColors() {
   }
 }
 
-// Initialize with random colors
+
 window.onload = () => {
   randomizeAllColors();
 };

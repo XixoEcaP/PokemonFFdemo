@@ -35,7 +35,7 @@ const cities = [
 
 
 let currentPage = 1;
-const itemsPerPage = 16;
+const itemsPerPage = 8;
 
 document.addEventListener("DOMContentLoaded", function() {
   displayCities(cities, currentPage);

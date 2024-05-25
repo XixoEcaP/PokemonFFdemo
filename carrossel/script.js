@@ -15,7 +15,7 @@ const imageList = [
   "../images/cologne.png",
   "../images/mexico_city.png",
   "../images/st_pauls_bay.png",
-  /*  "../images/los_angeles.png",
+ "../images/los_angeles.png",
   "../images/denver.png",
   "../images/seattle.png",
   "../images/san_francisco.png",
@@ -30,7 +30,7 @@ const imageList = [
   "../images/tbilisi.png",
   "../images/kingston.png",
   "../images/montego_bay.png",
-  "../images/reykjavik.png", */
+  "../images/reykjavik.png",
 ];
 
 let currentImageIndex = 0;

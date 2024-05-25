@@ -6,9 +6,9 @@ body {
 }
 
 h1#title {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+
   font-style: oblique;
-  margin-top: 60px;
+  margin-top: 5%;
   text-align: center;
   transform: scale(2);
   z-index: 1;
@@ -19,7 +19,7 @@ h1#title {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 7%;
   width: 80%;
   max-width: 800px;
   padding: 20px;

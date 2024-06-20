@@ -1,0 +1,52 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Portfolio Container */
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #3b3b3b;
+  padding: 20px;
+}
+
+/* Profile Section */
+.profile-section {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  margin: 20px;
+}
+
+/* Profile Image */
+.profile-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* Profile Title */
+.profile-title {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Profile Description */
+.profile-description {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  white-space: pre-wrap; /* Ensures that line breaks in the text are preserved */
+}

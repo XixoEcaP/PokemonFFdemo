@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3b3b3b;
+  margin: 0;
+  padding: 16x;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+/* Title Styles */
+h1 {
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Form Styles */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+ 
+}
+
+.form-group {
+  margin-bottom: 20px;
+ 
+}
+
+.form-group label {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.form-control {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  height: 45px;
+  width: 98.65%;
+  font-size: 16px;
+  padding: 10px;
+ 
+}
+
+.form-control.textarea {
+  height: auto;
+  resize: none;
+}
+
+#centre {
+  display: block;
+  width: 100%;
+  background-color: #f75050;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#centre:hover {
+  background-color: rgb(162, 78, 78);
+}
+
+/* Table Styles */
+.table {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.table thead {
+  background-color: #f75050;
+  color: #fff;
+}
+
+.table thead th {
+  padding: 15px;
+  text-align: left;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
+.table tbody td {
+  padding: 15px;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Button Styles */
+.btn {
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+ 
+ 
+}
+
+.btn-success {
+   
+  background-color: #28a745;
+  color: #fff;
+  
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+  margin-left: 1%;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+/* Completed Task Styles */
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.status {
+  text-align: center;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}

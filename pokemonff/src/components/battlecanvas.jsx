@@ -446,7 +446,7 @@ const[lost,setLost]=useState(false);
     ctx.font = '16px Arial';
     ctx.fillStyle = 'white';
     ctx.fillText(`${myPokemon.name}  Level: ${myPokemon.level}`, 280, 250);
-    ctx.fillText(`Level: ${foePokemon.level}`, 10, 30);
+    ctx.fillText(`${foePokemon.name}  Level: ${foePokemon.level}`, 10, 30);
   
     if (menuState === 'main') {
       drawMainMenu(ctx, cursorImage, cursorSelectImage);

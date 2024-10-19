@@ -632,9 +632,9 @@ const handleMyPokemonAttack = (attacker, defender, move, onComplete, sendToEvent
 
       if (newFoeHP <= 0) {
         addMessage(`Foe ${defender.name} has fainted!`, sendToEvent);
-        
-        handleFoeDefeat(); // Handle foe defeat
         setFightingStage('1'); // Reset to player's turn on faint
+        handleFoeDefeat(); // Handle foe defeat
+       
         setStop1(false); // Allow the game to proceed normally after defeat
         setMenuState('main'); // Return to main menu after the battle ends
       } else {
@@ -689,8 +689,9 @@ const handleFoePokemonAttack = (attacker, defender, move, onComplete, sendToEven
 
       if (newMyHP <= 0) {
         addMessage(`${defender.name} has fainted!`, sendToEvent);
+        setFightingStage('1');
         handlePokemonFaint(true); // Handle player faint logic
-        setFightingStage('1'); // Reset to player's turn on faint
+         // Reset to player's turn on faint
         setStop1(false); // Allow the game to proceed normally after defeat
         setMenuState('main'); // Return to main menu after the battle ends
       } else {

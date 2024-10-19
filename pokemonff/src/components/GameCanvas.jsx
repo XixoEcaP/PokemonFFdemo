@@ -114,7 +114,7 @@ const GameCanvas = ({ map, playerPosition, direction, frameIndex, events, setDir
       if (map.id === 'map1') {
    
         const vincentCanvasX = (48 - offsetX / tileSize) * tileSize;
-        const vincentCanvasY = ((164 - offsetY / tileSize) * tileSize) - 16;
+        const vincentCanvasY = ((163 - offsetY / tileSize) * tileSize) - 16;
         context.drawImage(
           vincentImage,
           manualFrameIndex * tileSize, 0 * 48, tileSize, 48,  // Frame and direction

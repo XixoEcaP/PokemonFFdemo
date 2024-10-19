@@ -107,7 +107,7 @@ const PokemonMenu = ({ team, setTeam, setCurrentPokemonIndex, currentPokemonInde
           <div style={{ fontSize: '1.2em', marginBottom: '0px' }}>
             {/* Show '=>' before the first selected or currently selected Pokémon */}
             {currentPokemonIndex === index ? '=> ' : ''}
-            {pokemon.name} (Lvl: {pokemon.level})
+            {pokemon.name} (Lvl: {pokemon.level}) - {pokemon.type.join(', ')}
           </div>
           <div style={{ fontSize: '0.9em' }}>
             HP: {pokemon.currentHp}/{pokemon.hp + pokemon.level * 2}

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PokemonFFdemo/static/css/main.a642b4d9.css",
-    "main.js": "/PokemonFFdemo/static/js/main.c0c66ace.js",
+    "main.js": "/PokemonFFdemo/static/js/main.a0b01968.js",
     "static/js/453.00a7884c.chunk.js": "/PokemonFFdemo/static/js/453.00a7884c.chunk.js",
     "static/media/worldmap1.png": "/PokemonFFdemo/static/media/worldmap1.460829632d7f5770b1e3.png",
     "static/media/battlebg1.png": "/PokemonFFdemo/static/media/battlebg1.075fd8fc5541c45a1f21.png",
@@ -15,11 +15,11 @@
     "static/media/behemothback.png": "/PokemonFFdemo/static/media/behemothback.620e61cf3bd3b934071b.png",
     "index.html": "/PokemonFFdemo/index.html",
     "main.a642b4d9.css.map": "/PokemonFFdemo/static/css/main.a642b4d9.css.map",
-    "main.c0c66ace.js.map": "/PokemonFFdemo/static/js/main.c0c66ace.js.map",
+    "main.a0b01968.js.map": "/PokemonFFdemo/static/js/main.a0b01968.js.map",
     "453.00a7884c.chunk.js.map": "/PokemonFFdemo/static/js/453.00a7884c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a642b4d9.css",
-    "static/js/main.c0c66ace.js"
+    "static/js/main.a0b01968.js"
   ]
 }

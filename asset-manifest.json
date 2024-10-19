@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/PokemonFFdemo/static/css/main.a642b4d9.css",
+    "main.js": "/PokemonFFdemo/static/js/main.c0c66ace.js",
+    "static/js/453.00a7884c.chunk.js": "/PokemonFFdemo/static/js/453.00a7884c.chunk.js",
+    "static/media/worldmap1.png": "/PokemonFFdemo/static/media/worldmap1.460829632d7f5770b1e3.png",
+    "static/media/battlebg1.png": "/PokemonFFdemo/static/media/battlebg1.075fd8fc5541c45a1f21.png",
+    "static/media/house2.png": "/PokemonFFdemo/static/media/house2.c62c86ddd9a87aad9ef8.png",
+    "static/media/house1.png": "/PokemonFFdemo/static/media/house1.d44b366f4e71e3a0ec4f.png",
+    "static/media/ramuh.png": "/PokemonFFdemo/static/media/ramuh.3a31326858fb954d02cc.png",
+    "static/media/behemoth.png": "/PokemonFFdemo/static/media/behemoth.0c1f0fee584081ebd7c9.png",
+    "static/media/player.png": "/PokemonFFdemo/static/media/player.52880c5b189ef0fcc370.png",
+    "static/media/cid.png": "/PokemonFFdemo/static/media/cid.d6b3b5083284728f6c7b.png",
+    "static/media/vincent.png": "/PokemonFFdemo/static/media/vincent.be64c3f01e447df69000.png",
+    "static/media/behemothback.png": "/PokemonFFdemo/static/media/behemothback.620e61cf3bd3b934071b.png",
+    "index.html": "/PokemonFFdemo/index.html",
+    "main.a642b4d9.css.map": "/PokemonFFdemo/static/css/main.a642b4d9.css.map",
+    "main.c0c66ace.js.map": "/PokemonFFdemo/static/js/main.c0c66ace.js.map",
+    "453.00a7884c.chunk.js.map": "/PokemonFFdemo/static/js/453.00a7884c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a642b4d9.css",
+    "static/js/main.c0c66ace.js"
+  ]
+}

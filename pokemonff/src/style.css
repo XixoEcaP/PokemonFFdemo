@@ -269,7 +269,7 @@ html, body {
     .system-container#gbasp {
         transform-origin: top center;
         position: absolute;
-        top: 6%;
+        top: 9%;
         left: 50%;
         transform: translate(-50%, -50%) scale(2.6); /* Center the element */
     }
